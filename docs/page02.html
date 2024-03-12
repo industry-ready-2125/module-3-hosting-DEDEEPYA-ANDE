@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .homepage-container {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.homepage-card {
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.homepage-heading {
+    font-family: "Bree Serif";
+    font-size: 28px;
+    color: #f19116;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.homepage-content {
+    font-family: "Bree Serif";
+    font-size: 18px;
+    color: #7b8794;
+    padding: 10px;
+    text-align: center;
+}
+
+.button-container {
+    font-family: "Bree Serif";
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f19116;
+    border-radius: 10px;
+    border-width: 0px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    margin: 10px;
+}
+
+.info-container {
+    background-color: #222222;
+    background-size: cover;
+}
+
+.info-header {
+    font-family: "Bree Serif";
+    font-size: 28px;
+    color: #f19116;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.info-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.info-heading {
+    font-family: "Bree Serif";
+    font-size: 30px;
+    color: #222222;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.info-content {
+    font-family: "Bree Serif";
+    font-size: 15px;
+    color: #6c6b70;
+    padding: 10px;
+}
+
+.info-image {
+    height: 190px;
+    width: 90px;
+}
+
+.info-button {
+    font-family: "Bree Serif";
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f19116;
+    border-width: 0px;
+    height: 30px;
+    width: 80px;
+    margin: 10px;
+}
+
+.detail-image {
+    height: 40vh;
+    width: 100vw;
+}
+
+.detail-para {
+    font-family: "Bree Serif";
+    font-size: 12px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.location-image {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+.horizontal-line {
+    background-color: #ffffff;
+    width: 90vw;
+    margin: 10px;
+}
+
+.detail-button {
+    font-family: "Bree Serif";
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f19116;
+    border-radius: 10px;
+    border-width: 0px;
+    height: 30px;
+    width: 80px;
+    margin: 10px;
+
+}
+    </style>
+    <a href="index page.html"></a>
+    <a href="page3.html"></a>
+</head>
+<body>
+    <div id="section-info">
+        <div class="info-container">
+            <h1 class="info-header">Sunrise Avenue</h1>
+            <div class="info-card" onclick="display('section 3bhk')">
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="info-image" />
+                    <div>
+                        <h1 class="info-heading">3BHK Flat</h1>
+                        <p class="info-content">This is a fully furnished house with<br />
+                            handmade furniture including a luxury<br />en-suite facitlities pack.Its built-up area is<br />about 1600sq.ft.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-card" onclick="display('section 2bhk')">
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="info-image" />
+                    <div>
+                        <h1 class="info-heading">2BHK Flat</h1>
+                        <p class="info-content">This is a fully furnished house with<br />
+                            handmade furniture including a luxury<br />en-suite facitlities pack.Its built-up area is<br />about 1200sq.ft.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="info-button" onclick="display('section-homepage')">Back</button>
+        </div>
+    </div>
+</body>
+</html>
